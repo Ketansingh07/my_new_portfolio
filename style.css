@@ -1,0 +1,182 @@
+.top-container{
+    position: relative;
+    background: #F9F9F9;
+    padding-top: 200px;
+
+}
+.my-image {
+    /*margin-top: 80px;*/
+
+    position: absolute;
+    width: 30%;
+    right: 80px;
+    bottom: 10px;
+
+
+}
+.info{
+    width: 40%;
+}
+.top-text{
+    padding-top: 80px;
+    padding-left: 150px;
+    padding-bottom: 80px;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation:
+            typing 3.5s steps(40, end),
+            blink-caret 1s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+/*Button*/
+.btn {
+    background: #d93434;
+    background-image: -webkit-linear-gradient(top, #d93434, #2bb861);
+    background-image: -moz-linear-gradient(top, #d93434, #2bb861);
+    background-image: -ms-linear-gradient(top, #d93434, #2bb861);
+    background-image: -o-linear-gradient(top, #d93434, #2bb861);
+    background-image: linear-gradient(to bottom, #d93434, #2bb861);
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+/*second section*/
+.about{
+    margin: 0
+;
+    font-family: 'Josefin Sans', sans-serif
+;
+    box-sizing: border-box
+;
+    width: 100%
+;
+    padding: 100px 0;
+    background-color: #191919
+;
+}
+.heading_{
+   color: #EAF6F6;
+    text-align: center;
+}
+/*Progress bars*/
+.aboutRight{
+    width: 40%;
+    margin-top: -30%;
+    margin-left: 55%;
+    color: #EAF6F6;
+    text-align: justify;
+    font-family: cursive;
+}
+.content{
+    width: 10%;
+    height: 10%;
+
+}
+.mid-container{
+    margin-top: 60px;
+}
+.desktop{
+    height: 50%;
+    width: 50%;
+}
+.coding_image{
+ width: 30%;
+}
+
+/**/
+.vl {
+    border-left: 6px solid green;
+    height: 450px;
+    position: absolute;
+    left: 50%;
+    margin-top: 900px;
+    margin-left: -3px;
+    top: 0;
+}
+.my-project{
+    margin-top: 5%;
+    text-align: center;
+}
+.container {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.projects{
+    font-family: 'Poppins', sans-serif;
+    width: 28%;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px gray;
+    margin-top: 40px;
+}
+.project-img img{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    border-radius: 15px;
+}
+.project-content h3{
+    margin: 20px 0 15px;
+    font-size: 30px;
+}
+.project-content{
+    line-height: 2;
+}
+.my-project-main{
+    padding-bottom: 5%;
+}
+.copyright{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
+.footer{
+    background-color: #7D9D9C;
+    text-align: center;
+    padding: 10px 0;
+}
+.footer h1{
+    font-family: 'Lobster Two', cursive;
+    color: #fff;
+    font-size: 40px;
+    margin: 0 0 30px;
+}
+.footer p{
+    font-size: 18px;
+    color: #fff;
+}
